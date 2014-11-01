@@ -190,7 +190,7 @@ function bwLimitChange(elem) {
 			<label><?php echo __("Login:") ?></label>
 			<input name="login" class="input"
 				onchange="fetchProfiles()" onfocus="fetchProfiles()" onblur="fetchProfiles()"
-				style="width : 220px"
+				style="width : 220px" autocapitalize="off"
 				required="1"
 				value="<?php echo $_SESSION["fake_login"] ?>" />
 		</div>
